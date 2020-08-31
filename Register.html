@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+  <head>
+      <title>Registration page</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <form>
+        First Name:   <input type="text" required name="firstname"><br>
+        Last Name:    <input type="text" required name="lastname"><br>
+        Date of birth:<input type="date" required name="dob"><br>
+        Email:        <input type="email" required name="email"><br>
+        Password:     <input type="password" required minlength="5" name="password"><br>
+        Gender:<br>
+        <input type="radio" name="Gender" value="Male">Male<br>
+        <input type="radio"name="Gender" value="Female">Female<br>
+        <input type="radio"name="Gender"value="Other" >Other<br>
+        Skills:<br>
+        <input type="checkbox" name="css">Css<br>
+        <input type="checkbox" name="js">JS<br>
+        <input type="checkbox" name="html">HTML<br>
+        <!-- Selecting multiple
+            How did you get to know about us:<br>
+        <select multiple>
+            <option>Newspaper</option>
+            <option>Youtube</option>
+            <option>Others</option>
+        </select><br> -->
+        <!-- Other way of using option tag -->
+        How did you get to know about us:<br>
+        <select name="source">
+            <option value="Newspaper">Newspaper</option>
+            <option value="Youtube">Youtube</option>
+            <option value="Others">Others</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset">
+
+
+
+      </form>
+      
