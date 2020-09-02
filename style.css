@@ -15,6 +15,7 @@ h1{
     color:green;
     text-align: center; border:5px blue dashed;
     cursor: crosshair;
+    font-family: 'Long Cang', cursive;
 }
 h4 {
     color:blue;
@@ -35,4 +36,16 @@ li {
 
 #order{
     background-color: rgba(0,0,253,0.4);
+}
+p{
+    font-size:30px;
+    font-style: italic;
+}
+/*float lets us shift our image left or right to accomodate our text side by side*/
+img{
+    float: right;;
+}
+footer{
+    clear: both;
+    text-align: center;
 }
