@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    font-family: sans-serif;
+    color:tomato;
+    /*border-bottom:3px solid violet;*/
+    /*width: 300px;*/
+    text-align: center;
+    text-decoration: underline black;
+    /* box-shadow:2px 2px 2px lightcoral; */
+    
+}
+img{
+    width: 400px;
+    height: 250px;
+    margin:5px 5px;
+    transition: all 1s; /* time in seconds it takes for transition to take place */
+}
+img:hover{
+    transform:scale(1.1)
+}

@@ -53,11 +53,16 @@ span{
     width: 20px;
     height: 10px;   
 }
+
+
+
 /*float lets us shift our image left or right to accomodate our text side by side*/
 img{
-    float: right;;
+    float: right;
 }
 footer{
     clear: both;
     text-align: center;
 }
+
+
