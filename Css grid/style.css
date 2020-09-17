@@ -1,6 +1,17 @@
+.container{
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(200px , 1fr));
+    /* grid-template-columns: 1fr 1fr 1.5fr;  This doesn't make it completly responsive*/
+    /* grid-template-columns: repeat(3, 1fr);  This repeats 3 times 1fr. */
+    /*grid-template-rows: 1fr; this is default one */
+    /* grid-template-columns: auto 1fr 2fr ; auto:takes space horizontally and grid will customize accordingly*/
+    /* justify-items: end; */
+}
+
 .zone {
     cursor:pointer;
-    display:inline-block;
+    /* display:inline-block; */
     text-align: center;
     font-size:10em;
     border-radius:4px;
