@@ -1,11 +1,16 @@
 /* Navigation Bar */
+.sticky{
+    position: fixed;;
+    top:0;
+    width: 100%;
+}
 .main-nav{
     display: flex;
     list-style: none;
     font-size:1rem ;
 }
 li{
-    padding: 20px;
+    padding: 5px;
 }
     
 a{
@@ -23,9 +28,41 @@ body{
 .push{
     margin-left: auto;
 }
+/*Cover*/
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:60vh;/*viewport height*/
+}
+/*Grid */
 
 
+.grid-wrapper{
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+.box > img{
+    width: 100%;
 
+}
+img:hover{
+
+    cursor: wait;
+
+}
+.box{
+    background-color: whitesmoke;
+    padding: 130px;
+    margin:20px;
+}
+.box:hover{
+    transform: rotate(-7deg);
+}
+footer{
+    text-align: center;
+}
 .zone {
     /* padding:30px 50px;
     margin:40px 60px; */
